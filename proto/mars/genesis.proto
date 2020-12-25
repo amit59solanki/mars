@@ -1,0 +1,9 @@
+syntax = "proto3";
+package fadeev.mars.mars;
+
+option go_package = "github.com/fadeev/mars/x/mars/types";
+
+// GenesisState defines the capability module's genesis state.
+message GenesisState {
+}
+
